@@ -5,9 +5,10 @@
     <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
-      <a-model src="new-cabin.glb" scale="1 1 1"></a-model>
-      <a-sky color="#99CCFF"></a-sky>
+    <a-scene background="color: #ECECEC">
+      <a-assets>
+        <a-asset-item src="new-cabin.glb"></a-asset-item>
+      </a-assets>
     </a-scene>
   </body>
 </html>
